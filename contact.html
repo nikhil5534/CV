@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact-Me</title>
+</head>
+<body>
+    <h1>Contact-Details</h1>
+    <P>ph no.-8858047136</P>
+    <p>address-surajkund</p> 
+    <a href="mailto:nikhilmishra4713@gmail.com">Mail</a>  
+    <table> 
+    <form action="mailto:nikhilmishra4713@gmail.com" method="post" enctype="text/plain">
+       <tr> <td><label>Your Name:</label></td>
+        <td><input type="text" name="yourName"></td></tr>
+        <tr>
+        <td><label>Your Email:
+        </label></td>
+        <td><input type="email" name="yourEmail" value=""></td>
+        </tr>
+        <tr>
+        <td><label >Password:</label></td>
+        <td><input type="password" name="yourPassword" id=""></td>
+        </tr>
+        <tr>
+        <td><label>Your Message</label><td></td><br></tr>
+        <tr>
+        <td><textarea name="Your Message" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+        <td><label for="">Agree T&C</label></td>
+        <td><input type="checkbox" name="" id="check" onclick="enable()"></td>
+        </tr>
+        <tr>
+        <td><input type="submit" name="" id="btn" disabled></td>
+        </tr>
+
+    </form>
+    </table>
+</body>
+<script>
+    function enable(){
+        var check=document.getElementById("check")
+        var btn=document.getElementById("btn")
+        if (check.checked){
+            btn.removeAttribute("disabled")
+        }
+        else{
+            btn.disabled="true"
+        }
+    }
+</script>
+</html>
