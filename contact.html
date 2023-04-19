@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact-Me</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Contact-Details</h1>
-    <P>ph no.-<a href ="tel:8858047136">8858047136</a></P>
-    <p>address-<a target="_blank" href="https://goo.gl/maps/XXDhTioTzNHJYXAS8">Surajkund house no.-B:39</a></p>  
-    <a href="mailto:nikhilmishra4713@gmail.com">Mail</a>
-    <form>
-    <table> 
+    <p>ph no.-<a href="tel:8858047136">8858047136</a></p>
+    <p>address-<a target="_blank" href="https://goo.gl/maps/XXDhTioTzNHJYXAS8">Surajkund house no.-B:39</a></p> 
+    <a href="mailto:nikhilmishra4713@gmail.com">Mail</a> 
+    <hr>
+    <H1>Personal Details</H1>
     <form action="mailto:nikhilmishra4713@gmail.com" method="post" enctype="text/plain">
+    <table id="yes"> 
+    
        <tr> <td><label>Your Name:</label></td>
         <td><input type="text" name="yourName" required></td></tr>
         <tr>
         <td><label>Your Email:
         </label></td>
-        <td><input type="email" name="yourEmail" value="" required></td>
+        <td><input type="email" name="yourEmail" value="" required ></td>
         </tr>
         <tr>
         <td><label >Password:</label></td>
         <td><input type="password" name="yourPassword" id="" required></td>
         </tr>
-        <tr>
-    </form>
+
+    
     </table>
-    <br>
-    <label>Your Message</label>
+        
+        <label id="yes">Your Message</label>
         <br>
         <textarea name="Your Message" id="" cols="30" rows="10" maxlength="1000"></textarea>
         <br>
@@ -38,12 +41,9 @@
               <br>
         <a href="t&c.html" target="_blank">Read our Terms and Conditions</a>
         <br>
-    <form action="mailto:nikhilmishra4713@gmail.com" method="post" enctype="text/plain">
-        <input type="submit" name="" id="btn" disabled>
-    </form>
+        <td ><input type="submit" name="" id="btn" disabled>
         </form>
-   
-    
+        
 
 </body>
 <script>
