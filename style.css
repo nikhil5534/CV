@@ -17,3 +17,46 @@ h3{
 #btn{
     color: lightblue;
 }
+.design{
+    background-color: #94B49F;
+    position: relative;
+    margin-left: 0px;
+    height: 60px;
+    width: 250px;
+    padding: 0;
+
+    
+}
+button{
+    background-color: #94B49F;
+    
+    
+}
+.a{
+    position: absolute;
+    left: 0px;
+    
+}
+.b{
+    position: absolute;
+    left: 110px;
+}
+.c{
+    position: absolute;
+    left: 180px;
+}
+.d{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+.e{
+    position: absolute;
+    left: 67px;
+    top: 30px;
+}
+.f{
+    position: absolute;
+    left: 125px;
+    top: 30px;
+}
