@@ -1,0 +1,21 @@
+html{
+    font-size: 30px;
+}
+#color{
+    color: coral;
+}
+#Color{
+    color: coral;
+}
+#size{
+    font-size: 2rem;  
+}
+#weight{
+    font-weight: 900;
+}
+#family{
+    font-family: 'caveat',cursive;
+}
+#align{
+    text-align: right;
+}
