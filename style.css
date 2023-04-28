@@ -1,62 +1,24 @@
-*{
-    background-color: #FCF8E8;
 
-}
-h1{
-   background-color: #94B49F;
-}
-h3{
- background-color: #CEE5D0;
-}
-*{
-    font-family: 'Satisfy', cursive;
-}
-#yes{
-    background-color: #ECB390;
-}
-#btn{
-    color: lightblue;
-}
-.design{
-    background-color: #94B49F;
-    position: relative;
-    margin-left: 0px;
-    height: 60px;
-    width: 250px;
-    padding: 0;
-
-    
-}
-button{
-    background-color: #94B49F;
-    
-    
-}
-.a{
-    position: absolute;
-    left: 0px;
-    
-}
-.b{
-    position: absolute;
-    left: 110px;
-}
-.c{
-    position: absolute;
-    left: 180px;
-}
-.d{
-    position: absolute;
-    left: 0px;
-    top: 30px;
-}
-.e{
-    position: absolute;
-    left: 67px;
-    top: 30px;
-}
-.f{
-    position: absolute;
-    left: 125px;
-    top: 30px;
-}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
